@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+          .s{
+            border: 6px solid black;
+            width: 100px;
+            height: 150px;
+            position: absolute;
+            left: 600px;
+            top: 260px;
+            box-shadow: 2px 4px 14px;
+            
+          }
+          
+
+          input[value="radio1"]:checked~.s{
+            transform: none;
+            background-color: aqua;
+          }
+          input[value="radio2"]:checked~.s{
+            transform:rotate(10deg);
+            background-color: darkgoldenrod;
+          }
+          input[value="radio3"]:checked~.s{
+            transform:rotate(45deg);
+            background-color: crimson;
+          }
+          input[value="radio4"]:checked~.s{
+            transform: rotatex(45deg);
+            background-color: chartreuse;
+          }
+          
+          
+          input[value="rotate5"]:checked~.s{
+            transform: rotatex(100deg);
+            background-color: firebrick;
+          }
+          input[value="rotate6"]:checked~.s{
+            transform: rotatey(45deg);
+            background-color: chartreuse;
+          }
+          input[value="rotate7"]:checked~.s{
+            transform: rotatey(80deg);
+            background-color: rgb(46, 25, 179);
+            
+          }
+          input[value="rotate8"]:checked~.s{
+            transform: rotatey(45deg);
+            background-color: rgb(43, 179, 25)}
+           
+           
+            
+            input[value="rotate9"]:checked~.s{
+              transform: skew(20deg,20deg);
+              background-color: rgb(32, 184, 201);
+            }
+            input[value="rotate10"]:checked~.s{
+              transform: skew(30deg,30deg);
+              background-color: rgb(195, 145, 28);
+            }
+            input[value="rotate11"]:checked~.s{
+              transform: skewx(30deg);
+              background-color: rgb(74, 49, 218);
+            }
+            input[value="rotate12"]:checked~.s{
+              transform: skewx(40deg);
+              background-color: rgb(218, 49, 176);
+            }
+            input[value="rotate13"]:checked~.s{
+              transform: skewy(30deg);
+              background-color: rgb(21, 152, 141);
+            }
+            input[value="rotate14"]:checked~.s{
+              transform:translate(20px,10px);
+              background-color: rgb(52, 49, 218);
+            }
+            input[value="rotate15"]:checked~.s{
+              transform:translate(20px,20px);
+              background-color: rgb(24, 225, 78);
+            }
+            input[value="rotate16"]:checked~.s{
+              transform:scale(2,2);
+              background-color: rgb(218, 205, 28);
+            }
+            input[value="rotate17"]:checked~.s{
+              transform:matrix(0.866,0.7,-0.7,0.866,0,0);
+              background-color: rgb(217, 67, 17);
+            }
+            input[value="rotate18"]:checked~.s{
+              transform:matrix(0.586,0.8,-0.8,0.858,0,0);
+              background-color: rgb(26, 211, 208);
+
+            }
+            input[value="rotate19"]:checked~.s{
+              transform:matrix(0.585,0.8,-0.8,0.586,40,30);
+              background-color: rgb(50, 217, 17);
+            }
+
+              input[value="rotate20"]:checked~.s{
+              transform:matrix(0.585,0.8,-0.8,0.586,40,30);
+              background-color: rgb(206, 113, 20);
+            }
+            .a{
+              border: 1px solid black;
+              padding-right: 180px;
+             
+
+            }
+            .a1{border: 1px solid black;
+              padding-right: 130px;
+              
+
+            }
+            .a2{border: 1px solid black;
+              padding-right: 133px;
+
+            }
+            .a3{border: 1px solid black;
+              padding-right: 160px;
+
+            }
+            .a4{ border: 1px solid black;
+              padding-right: 150px;
+
+            }
+            .a5{
+              border: 1px solid black;
+              padding-right: 160px;
+
+            }
+            .a6{
+              border: 1px solid black;
+              padding-right: 160px;
+            }
+            .a7{
+              border: 1px solid black;
+              padding-right: 160px;
+            }
+            .a8{
+              border: 1px solid black;
+              padding-right: 90px;
+            }
+            .a9{
+              border: 1px solid black;
+              padding-right:90px;
+            }
+            .a10{
+              border: 1px solid black;
+              padding-right: 125px;
+            }
+            .a11{
+              border: 1px solid black;
+              padding-right: 125px;
+            
+            }
+            .a12{
+            border: 1px solid black;
+              padding-right: 125px; 
+            }
+            .a13{
+              border: 1px solid black;
+              padding-right: 125px;
+            }
+            .a14{
+              border: 1px solid black;
+              padding-right: 85px;
+            }
+            .a15{
+              border: 1px solid black;
+              padding-right: 85px;
+            }
+            .a16{
+              border: 1px solid black;
+              padding-right: 155px;
+            }
+            .a17{
+              border: 1px solid black;
+              padding-right: 15px;
+            }
+            .a18{
+              border: 1px solid black;
+              padding-right: 5px;
+            }
+            .a19{
+              border: 1px solid black;
+              padding-right: 5px;
+            }
+            .r{
+              border: 2px solid black;
+              width: 500px;
+              height: 800px;
+              padding: 100px;
+              background-color: coral;
+            }
+            body{
+              border: 10px solid black;
+              width: 800px;
+              padding: 100px;
+              background-color: aquamarine;
+
+            }
+h1{
+  border: 2px solid black;
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  background-color: rgb(200, 95, 116);
+}
+ww1q  </style>
+</head>
+<body>
+  <div class="r">
+    <div>
+        <h1>css transoforms</h1>
+
+    </div>
+    
+        <input type="radio" value="radio1" name="transform" class="a1" />
+        <span class="a j">transform :none;</span><br>
+        <br>
+        
+    <input type="radio" value="radio2" name="transform" class="a1"/>
+    <span class="a1 j">transform: rotate(10deg);</span><br><br>
+
+    <input type="radio" value="radio3" name="transform" class="a1" />
+    <span class="a2 j">transform:rotate(45deg);</span><br><br>
+
+    <input type="radio" value="radio4" name="transform" class="a1" />
+    <span class="a3 j">transform:x(45deg);</span><br><br>
+
+    <input type="radio" value="rotate5" name="transform" class="a1" />
+    <span class="a4 j">transform:x(100deg);</span><br><br>
+
+    <input type="radio" value="rotate6" name="transform">
+    <span class="a5 j">transform:y(45deg);</span><br><br>
+
+    <input type="radio" value="rotate7" name="transform">
+    <span class="a6 j">transform:y(80deg);</span><br><br> 
+
+     <input type="radio" value="rotate8" name="transform">
+    <span class="a7 j">transform:y(45deg);</span><br><br>
+
+    <input type="radio" value="rotate9" name="transform">
+    <span class="a8 j">transform:skew(20deg,20deg);</span><br><br>
+
+    <input type="radio" value="rotate10" name="transform">
+    <span class="a9 j">transform:skew(30deg,30deg);</span><br><br>
+
+    <input type="radio" value="rotate11" name="transform">
+    <span class="a10 j">transform:skewx(30deg);</span><br><br>
+
+    <input type="radio" value="rotate12" name="transform">
+    <span class="a11 j">transform:skewx(40deg);</span><br><br>
+
+    <input type="radio" value="rotate13" name="transform">
+    <span class="a12 j">transform:skewy(30deg);</span><br><br>
+
+    <input type="radio" value="rotate14" name="transform">
+    <span class="a13 j">transform:skewy(40deg);</span><br><br>
+
+    <input type="radio" value="rotate15" name="transform">
+    <span class="a14 j">transform:translate(20px,10px);</span><br><br>
+
+    <input type="radio" value="rotate16" name="transform">
+    <span class="a15 j">transform:translate(20px,20px);</span><br><br>
+
+    <input type="radio" value="rotate17" name="transform">
+    <span class="a16 j">transform:scale(2,2);</span><br><br>
+
+    <input type="radio" value="rotate18" name="transform">
+    <span class="a17 j">transform:matrix(0.866,0.7,-0.7,0.866,0,0);</span><br><br>
+
+    <input type="radio" value="rotate19" name="transform">
+    <span class="a18 j">transform:matrix(0.586,0.8,-0.8,0,0.585,0,0);</span><br><br>
+
+    <input type="radio" value="rotate20" name="transform">
+    <span class="a19 j">transform:matrix(0.585,0.8,-0.8,0.586,40,30);</span><br><br>
+
+   
+    
+
+
+
+
+
+    <div class="s"> see what different transform values does with this blue div element</div>
+    
+        </div>
+    </div>
+  </div>
+    
+</body>
+</html>
