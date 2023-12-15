@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style> 
+.container{
+    background-color: rgb(33, 35, 35);
+    width: 1000px;
+}
+.bor2{
+    border: 1px solid black;
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.table,.s{
+    text-align: center;
+}
+.border1{
+    border: 1PX solid black;
+      
+      width: 900px;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap:20px;
+}
+.center{
+    text-align: center;
+}
+.p1{
+  position: relative;
+  top: -750px;
+  left: 50px;
+  color: aliceblue;
+}
+body{
+  background-color: black;
+}
+.c{
+  color: aliceblue;
+}
+
+    </style>
+<body>
+
+<div class="container">
+  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home"><img class="a" src="../bootstrap1/images/cigarate.jpg" height="50px" width="60px"></a></li>
+    <li><a data-toggle="tab" href="#menu1">About <i class="fa fa-user" style="font-size:36px"></i></a></li>
+    <li><a data-toggle="tab" href="#menu2">Photos <i class="fa fa-eye" style="font-size:36px"></i></a></li>
+    <li><a data-toggle="tab" href="#menu3">Contact Me <i class="fa fa-envelope" style="font-size:36px"></i></a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+       
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../bootstrap1/images/cigarate.jpg" alt="Los Angeles">
+          </div>
+      
+          <div class="item">
+            <img src="../bootstrap1/images/d2.webp" height="800px" width="1000px" alt="Chicago">
+          </div>
+      
+          <div class="item">
+            <img src="../bootstrap1/images/d4.jpeg" height="600px"  width="1000px"alt="New York">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+
+
+       <div class="p1"> <h1 >Im john doe.</h1>
+     
+        <i>photographer and web desigher.</i> 
+        </div>
+
+
+        <h2 class="c">My Name </h2>
+        <p class="c">I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="c">Photography</p>
+        <div class="progress">
+           
+           <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="80"></div>
+         </div>
+         <p class="c">Photoshop</p>
+         <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="80"></div>
+         </div>
+         <p class="c">Web design</p>
+         <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80"></div>
+
+</div>
+
+<!-- idhome -->
+<div class="bor2">
+     <div><h1>11+ </h1><p>partenrs</p></div>
+       <div> <h1>55+</h1><p>Projects Done</p></div>
+      <div><h1>89+</h1><p>Happy clients</p></div>
+        <div><h1>150+</h1><p>Meetings</p></div>
+
+        
+      
+        </div>
+        <!-- br2 -->
+
+        <br>
+        <div> <button style="font-size:24px">Download Resume<i class="fa fa-download"></i></button>
+        </div><br>
+
+
+        <table class="table c">
+            <thead class="table-dark">
+              <th class="s"><h1 class="c t">Basic</h1></th>
+                  </th>
+                  <th class="s c"><h1 class="t">Pro</h1></th>
+              <tr class="c">
+                <td>Web Design</td>
+                <td>Web Design</td>
+                <tr >
+                  <td>Photography</td>
+                  <td>Photography</td>
+                
+                </tr>
+                <tr>
+                  <td>5GB Storage</td>
+                  <td>5GB Storage</td>
+  
+                </tr>
+                <tr>
+                  <td>Mail Support</td>
+                <td>Mail Support</td>
+              </tr>
+              <tr>
+                <td><h1>$ 10</h1>
+                  per month</td>
+                  <td><h1>$ 20</h1>
+                    per month</td>
+              </tr>
+              <tr>
+                <td class="s1"><button type="button" class="btn-primary btn-outline">Sign in</button></td>
+                <td class="s1"><button type="button" class="btn-primary btn-outline-primary">Sign in</button></td>
+              </tr>
+  
+  
+              </tr>
+              
+            </thead>
+            <tbody>
+            
+            </tbody>
+          </table>  
+
+
+          <div>
+            <h2 class="c">My Reputation</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="../bootstrap1/images/img1.jpg">
+                    <img src="../bootstrap1/images/img1.jpg" alt="Lights" height="100px" width="200px">
+                    <div class="caption">
+                      <p>Chris Fox.<br> CEO at Mighty Schools.<br>
+  
+                        John Doe saved us from a web disaster..</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="../bootstrap1/images/img2.jpg">
+                    <img src="../bootstrap1/images/img2.jpg" alt="Nature" height="100px" width="200px">
+                    <div class="caption">
+                      <p>Rebecca Flex.<br> CEO at Company.<br>
+  
+                        No one is better than John Doe.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+             
+            </div>
+                </div>
+
+
+
+          <div class="c"><h1>photos</h1></div>
+          <div class="border1">
+            
+            <img src="../bootstrap1/images/b1.jpg"height="475px" width="475px">
+            <img src="../bootstrap1/images/b2.jpg"height="475px" width="475px">
+            <img src="../bootstrap1/images/b3.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b4.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b5.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b6.jpg" height="475px" width="475px">
+           
+          
+          </div>
+          <div class="b3 c">
+            <h1>Contact Me</h1>
+           <i class="fa fa-phone" style="font-size:36px"></i><span><b> Phone: +00 151515</b></span><br><br>
+            <i class="fa fa-map-marker" style="font-size:36px"></i><b>Chicago, US</b><br><br>
+            <i class="fa fa-envelope" style="font-size:36px"></i> <b>Email: mail@mail.com</b><br><br>
+          
+ </div>   
+ 
+ <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Name">
+<div id="passwordHelpBlock" class="form-text"><br>
+  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Email">
+  <div id="passwordHelpBlock" class="form-text">
+  <div id="passwordHelpBlock" class="form-text"><br>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Subject">
+    <div id="passwordHelpBlock" class="form-text">
+    <div id="passwordHelpBlock" class="form-text"><br>
+      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Messege">
+      <div id="passwordHelpBlock" class="form-text">
+      <div id="passwordHelpBlock" class="form-text"><br><br>
+        <div> <button style="font-size:24px">send Messege<i class="fa fa-location-arrow" style="font-size:24px"></i></button>    
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+
+
+ <div class="center c ">
+<p> <i class="fa fa-facebook" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-instagram" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-snapchat" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-pinterest" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-twitter" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-linkedin" style="font-size:20px; color:aliceblue"></i>
+</p>
+<a href="https://www.w3schools.com/icons/fontawesome_icons_webapp.asp" >powered by w3.shcools</a>    
+</div> 
+
+
+
+<!-- </div> -->
+
+    </div>
+    <!-- cntr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="menu1" class="tab-pane fade">
+         <h2 class="c">My Name </h2>
+     <p class="c">I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     <p class="c">Photography</p>
+     <div class="progress">
+        
+        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="80"></div>
+      </div>
+      <p class="c">Photoshop</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="80"></div>
+      </div>
+      <p class="c">Web design</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80"></div> 
+      </div>
+ <div class="bor2">
+        <div><h1>11+ </h1><p>partenrs</p></div>
+          <div> <h1>55+</h1><p>Projects Done</p></div>
+         <div><h1>89+</h1><p>Happy clients</p></div>
+           <div><h1>150+</h1><p>Meetings</p></div>
+ </div>
+
+            <br>
+        <div> <button style="font-size:24px">Download Resume<i class="fa fa-download"></i></button>
+        </div><br> 
+
+
+        <table class="table c">
+          <thead class="table-dark">
+            <th class="s"><h1 class="c t">Basic</h1></th>
+                </th>
+                <th class="s c"><h1 class="t">Pro</h1></th>
+            <tr class="c">
+              <td>Web Design</td>
+              <td>Web Design</td>
+              <tr >
+                <td>Photography</td>
+                <td>Photography</td>
+              
+              </tr>
+              <tr>
+                <td>5GB Storage</td>
+                <td>5GB Storage</td>
+
+              </tr>
+              <tr>
+                <td>Mail Support</td>
+              <td>Mail Support</td>
+            </tr>
+            <tr>
+              <td><h1>$ 10</h1>
+                per month</td>
+                <td><h1>$ 20</h1>
+                  per month</td>
+            </tr>
+            <tr>
+              <td class="s1"><button type="button" class="btn-primary btn-outline">Sign in</button></td>
+              <td class="s1"><button type="button" class="btn-primary btn-outline-primary">Sign in</button></td>
+            </tr>
+
+
+            </tr>
+            
+          </thead>
+          <tbody>
+          
+          </tbody>
+        </table> 
+
+        <h2 class="c">My Reputation</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../bootstrap1/images/img1.jpg">
+                <img src= "../bootstrap1/images/img1.jpg"alt="Lights" height="100px" width="200px">
+                <div class="caption">
+                  <p>Chris Fox.<br> CEO at Mighty Schools.<br>
+
+                    John Doe saved us from a web disaster..</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../bootstrap1/images/img2.jpg">
+                <img src="../bootstrap1/images/img2.jpg" alt="Nature" height="100px" width="200px">
+                <div class="caption">
+                  <p>Rebecca Flex.<br> CEO at Company.<br>
+
+                    No one is better than John Doe.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+         
+        </div>
+        <!-- close -->
+        <div class="c"><h1>photos</h1></div>
+          <div class="border1">
+            
+            <img src="../bootstrap1/images/b1.jpg"height="475px" width="475px">
+            <img src="../bootstrap1/images/b2.jpg"height="475px" width="475px">
+            <img src="../bootstrap1/images/b3.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b4.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b5.jpg" height="475px" width="475px">
+            <img src="../bootstrap1/images/b6.jpg" height="475px" width="475px">
+           
+          
+          </div>
+          <div class="b3 c">
+            <h1>Contact Me</h1>
+            <i class="fa fa-envelope" style="font-size:36px"></i><span><b> Phone: +00 151515</b></span><br><br>
+            <i class="fa fa-map-marker" style="font-size:36px"></i><b>Chicago, US</b><br><br>
+            <i class="fa fa-phone" style="font-size:36px"></i> <b>Email: mail@mail.com</b><br><br>
+           
+ </div> 
+
+  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Name">
+<div id="passwordHelpBlock" class="form-text"><br>
+  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Email">
+  <div id="passwordHelpBlock" class="form-text">
+  <div id="passwordHelpBlock" class="form-text"><br>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Subject">
+    <div id="passwordHelpBlock" class="form-text">
+    <div id="passwordHelpBlock" class="form-text"><br>
+      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Messege">
+      <div id="passwordHelpBlock" class="form-text">
+      <div id="passwordHelpBlock" class="form-text"><br><br>
+        <div> <button style="font-size:24px">send Messege<i class="fa fa-location-arrow" style="font-size:24px"></i></button>    
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<!-- close -->
+<div class="center">
+  <p> <i class="fa fa-facebook" style="font-size:20px; color:aliceblue"></i>
+      <i class="fa fa-instagram" style="font-size:20px; color:aliceblue"></i>
+      <i class="fa fa-snapchat" style="font-size:20px; color:aliceblue"></i>
+      <i class="fa fa-pinterest" style="font-size:20px; color:aliceblue"></i>
+      <i class="fa fa-twitter" style="font-size:20px; color:aliceblue"></i>
+      <i class="fa fa-linkedin" style="font-size:20px; color:aliceblue"></i>
+  </p>
+  <a href="https://www.w3schools.com/icons/fontawesome_icons_webapp.asp" >powered by w3.shcools</a>    
+  </div> 
+   
+  
+
+
+      
+
+
+
+
+
+
+
+       </div>
+      <!-- id menu -->
+
+      
+
+
+      
+    
+    <div id="menu2" class="tab-pane fade">
+      
+      <div class="c"><h1>photos</h1></div>
+      <div class="border1">
+        
+        <img src="../bootstrap1/images/b1.jpg"height="475px" width="475px">
+        <img src="../bootstrap1/images/b2.jpg"height="475px" width="475px">
+        <img src="../bootstrap1/images/b3.jpg" height="475px" width="475px">
+        <img src="../bootstrap1/images/b4.jpg" height="475px" width="475px">
+        <img src="../bootstrap1/images/b5.jpg" height="475px" width="475px">
+        <img src="../bootstrap1/images/b6.jpg" height="475px" width="475px">
+       
+      
+      </div>
+      <div class="b3 c">
+        <h1>Contact Me</h1>
+        <i class="fa fa-envelope" style="font-size:36px"></i><span><b> Phone: +00 151515</b></span><br><br>
+        <i class="fa fa-map-marker" style="font-size:36px"></i><b>Chicago, US</b><br><br>
+        <i class="fa fa-phone" style="font-size:36px"></i> <b>Email: mail@mail.com</b><br><br>
+       
+</div> 
+<!-- close -->
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Name">
+<div id="passwordHelpBlock" class="form-text"><br>
+  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Email">
+  <div id="passwordHelpBlock" class="form-text">
+  <div id="passwordHelpBlock" class="form-text"><br>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Subject">
+    <div id="passwordHelpBlock" class="form-text">
+    <div id="passwordHelpBlock" class="form-text"><br>
+      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Messege">
+      <div id="passwordHelpBlock" class="form-text">
+      <div id="passwordHelpBlock" class="form-text"><br><br>
+        <div> <button style="font-size:24px">send Messege<i class="fa fa-location-arrow" style="font-size:24px"></i></button>    
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+
+
+ <div class="center">
+<p> <i class="fa fa-facebook" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-instagram" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-snapchat" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-pinterest" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-twitter" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-linkedin" style="font-size:20px; color:aliceblue"></i>
+</p>
+<a href="https://www.w3schools.com/icons/fontawesome_icons_webapp.asp" >powered by w3.shcools</a>    
+</div>
+
+
+    </div>
+    <div id="menu3" class="tab-pane fade ">
+      <div class="b3 c">
+        <h1>Contact Me</h1>
+        <i class="fa fa-envelope" style="font-size:36px"></i><span><b> Phone: +00 151515</b></span><br><br>
+        <i class="fa fa-map-marker" style="font-size:36px"></i><b>Chicago, US</b><br><br>
+        <i class="fa fa-phone" style="font-size:36px"></i> <b>Email: mail@mail.com</b><br><br>
+       
+</div> 
+<!-- close -->
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Name">
+<div id="passwordHelpBlock" class="form-text"><br>
+  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Email">
+  <div id="passwordHelpBlock" class="form-text">
+  <div id="passwordHelpBlock" class="form-text"><br>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Subject">
+    <div id="passwordHelpBlock" class="form-text">
+    <div id="passwordHelpBlock" class="form-text"><br>
+      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Messege">
+      <div id="passwordHelpBlock" class="form-text">
+      <div id="passwordHelpBlock" class="form-text"><br><br>
+        <div> <button style="font-size:24px">send Messege<i class="fa fa-location-arrow" style="font-size:24px"></i></button>    
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+
+
+ <div class="center">
+<p> <i class="fa fa-facebook" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-instagram" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-snapchat" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-pinterest" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-twitter" style="font-size:20px; color:aliceblue"></i>
+    <i class="fa fa-linkedin" style="font-size:20px; color:aliceblue"></i>
+</p>
+<a href="https://www.w3schools.com/icons/fontawesome_icons_webapp.asp" >powered by w3.shcools</a>    
+</div>
+
+
+
+    </div>
+  </div>
+
+</div> 
+
+
+</body>
+</html>
